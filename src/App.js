@@ -15,8 +15,7 @@ class Container extends React.Component{
 
   render(){
     return(
-    <div className="container">
-      
+    <div className="container">      
       <Form/>
     </div>
     );
@@ -59,9 +58,9 @@ class List extends React.Component{
   render(){
     return(
       <div className="list">
-      <div className="listItem">
-        <ListItem items = {this.props.tasks}/>  
-      </div>
+        <div className="listItem">
+          <ListItem items = {this.props.tasks}/>  
+        </div>
       </div>
        );
   }
